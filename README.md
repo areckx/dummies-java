@@ -1,2 +1,2 @@
 # dummies-java
-Working through "Beginning Programming with Java For Dummies"
+Working through "Beginning Programming with Java for Dummies"
