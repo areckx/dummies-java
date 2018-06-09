@@ -19,11 +19,15 @@ public class ThingsILike {
 // FixTheAlternator
 
 /* A method declaration
-void FixTheAlternator() {
-	DriveInto(car, bay);
-	Lift(hood);
+void FixTheAlternator() { 		// method header <-- before {
+	DriveInto(car, bay);		// Declare method body
+	Lift(hood);					
 	Get(wrench);
 	Loosen(alternatorBelt);
 	
 }
+
+fixTheAlternator(junkyOldFord);	method call
+
 */
+
