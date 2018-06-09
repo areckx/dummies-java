@@ -1,4 +1,12 @@
-/* 
+/* areckx:HEADER
+ * 
+ */
+
+/* areckx: Make sure not to remove this original header written by the author.
+ * 
+ */
+
+/*
  * A program to list the good things in life
  * Author: Barry Burd, BegingProg2@BurdBrain.com
  * February 13, 2005
@@ -42,6 +50,14 @@ public class ThingsILike {
  * 
  * (Whereas I used to read it left to right)
  * 
+ * 
+ */
+
+/* areckx: Continue reading the book
+ * 
+ */
+
+/* areckx: 
  * 
  */
 
