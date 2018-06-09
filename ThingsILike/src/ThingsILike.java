@@ -11,3 +11,17 @@ public class ThingsILike {
 		System.out.println("Chocolate, royalties, sleep");
 	} 
 }
+
+
+
+
+// FixTheAlternator
+
+
+static void FixTheAlternator() {
+	DriveInto(car, bay);
+	Lift(hood);
+	Get(wrench);
+	Loosen(alternatorBelt);
+	
+}
