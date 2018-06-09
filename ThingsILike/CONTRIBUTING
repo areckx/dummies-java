@@ -1,0 +1,19 @@
+areckx::CONTRIBUTING
+
+Please use the following format for leaving comments for me to read later:
+
+
+    /* UserName: !NEW! <-- Pointer to anything that is a core element
+     *
+     */
+     
+This is to facilitate regex search and replace functionality for future revisions
+of my source code project.
+
+Please note that by submitting a comment, your words will become public. I update
+my project frequently and so any source code additions I `merge(approve)` will
+be added into the LICENSE file included in the source.
+
+Thank you to everyone who has helped me reach to this point in my understanding of 
+programming and life in general. You are a part of this project, and in some way,
+shape or form, share the same values as I do. Thank you, everyone. This is our project.

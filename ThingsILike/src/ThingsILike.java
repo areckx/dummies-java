@@ -1,5 +1,8 @@
 /* areckx:HEADER
  * 
+ * !NEW!
+ * If you want to leave a comment for me, submit a pull request or if it is
+ * vital to the source code, an entry added to the issue tracker would be most prudent.
  */
 
 /* areckx: Make sure not to remove this original header written by the author.
@@ -54,6 +57,10 @@ public class ThingsILike {
  */
 
 /* areckx: Continue reading the book
+ * 
+ * I was using the very lesson I learned. At this very moment I am adding
+ * a comment into the category I had placed earlier. This will come in handy as I learn
+ * more about how working on a project is. 
  * 
  */
 
