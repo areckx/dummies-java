@@ -38,7 +38,7 @@ public class ThingsILike {
  * ```
  * 	Lift(hood);
  * ```
- * I read this as "The value 'hood' goes into 'Lift'
+ * I read this as "The value 'hood' goes into 'Lift'"
  * 
  * (Whereas I used to read it left to right)
  * 
