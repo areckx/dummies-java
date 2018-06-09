@@ -29,6 +29,22 @@ public class ThingsILike {
 
 // FixTheAlternator
 
+/* areckx: (This comment block may be easily removed in a later version)
+ * 
+ * What I was noticing earlier was that I was thinking of the code in a certain term.
+ * 
+ * In the code:
+ * 	
+ * ```
+ * 	Lift(hood);
+ * ```
+ * I read this as "The value 'hood' goes into 'Lift'
+ * 
+ * (Whereas I used to read it left to right)
+ * 
+ * 
+ */
+
 /* A method declaration
 void FixTheAlternator() { 		// method header <-- before {
 	DriveInto(car, bay);		// Declare method body
