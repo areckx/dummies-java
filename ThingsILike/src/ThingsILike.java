@@ -15,13 +15,15 @@ public class ThingsILike {
 
 
 
+
 // FixTheAlternator
 
-
-static void FixTheAlternator() {
+/* A method declaration
+void FixTheAlternator() {
 	DriveInto(car, bay);
 	Lift(hood);
 	Get(wrench);
 	Loosen(alternatorBelt);
 	
 }
+*/
