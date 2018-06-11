@@ -1,6 +1,6 @@
 /* areckx:HEADER
  * 
- * !NEW!
+ * !PIN!
  * If you want to leave a comment for me, submit a pull request or if it is
  * vital to the source code, an entry added to the issue tracker would be most prudent.
  */
