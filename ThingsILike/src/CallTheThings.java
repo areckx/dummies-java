@@ -9,5 +9,7 @@ public class CallTheThings {
 		ThingsILike.printRoyalties();
 		
 		ThingsILike.printSleep(); 
+		
+		EchoText.echoLine();
 	} 
 }
