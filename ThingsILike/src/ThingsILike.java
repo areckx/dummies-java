@@ -17,10 +17,21 @@
 
 public class ThingsILike {
 
-	public static void printThings() {
-	
-	System.out.println("Chocolate, royalties, sleep"); 
+	public static void printThings() { 
+		System.out.println("Chocolate, royalties, sleep"); 
 	} 
+	
+	public static void printChocolate() { 
+		System.out.println("Chocolate");
+	}
+	
+	public static void printRoyalties() { 
+		System.out.println("Royalties"); 
+	}
+	
+	public static void printSleep() {
+		System.out.println("Sleep");
+	}
 }
 
 	
