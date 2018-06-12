@@ -6,8 +6,8 @@
 
 /* areckx: 
  * I am changing the program to be called on CallTheThings as a main.
- * In case I want to expand the class to include more functions, I am naming the main
- * class EchoText as a class that works with text in generalo
+ * In case I want to expand the class to include more functions, I am naming it
+ * EchoText and does work with text in general
  * 
  * I am also taking liberties with the variable names and other misc. things. I believe
  * the author of the book intended readers to play around with his code, but it doesn't
