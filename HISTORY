@@ -7,10 +7,11 @@
 	-- Started keeping a log of changes in a standard format
 
 	-- Added several comments to my java code. The intent is to learn
-		how to use java so that as I become used to how the code works
-		I can phase it out in version changes. This entry is to always
-		be the last entry, so all new entries will be inserted above
-		"++ INIT ++" 
+	   how to use java so that as I become used to how the code works
+	   I can phase it out in version changes.
+		
+	-- This entry is to always be the last entry, so all new entries 
+	   will be inserted above "++ INIT ++" 
 
 -- 2018-06-09Sat -- 
 -- INIT -- 
