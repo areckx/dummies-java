@@ -1,6 +1,6 @@
 /* areckx:HEADER
  * 
- * !PIN!
+ * !PIN! Leaving comments
  * If you want to leave a comment for me, submit a pull request or if it is
  * vital to the source code, an entry added to the issue tracker would be most prudent.
  */
@@ -34,7 +34,7 @@ public class ThingsILike {
 	}
 } 
 
-/* areckx: !! MUST REMEMBER !!
+/* areckx: !PIN! Must remember
  * 
  *
  *	When I had first seen this block of text, I thought that I had
