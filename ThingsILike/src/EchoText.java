@@ -19,7 +19,7 @@ import java.util.Scanner;
 public class EchoText {
 
 	/* areckx: Memory Leaks
-	 * Apparently without declaring readTextInput as static, it will
+	 * Apparently without declaring `readTextInput` as static, it will
 	 * cause `readTextInput` to not close at the end of the function call
 	 */
 	private static Scanner readTextInput;
