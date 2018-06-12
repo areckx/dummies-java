@@ -42,9 +42,11 @@ public class ThingsILike {
  *	that it was all fake! 
  */
 
-/* areckx: !FIXME! Understand the difference between java code
- * 	     but do not worry about it this early on in your
- *		 learning of the programming concepts.
+/* areckx: !FIXME! Understand Java Code
+ * 
+ * Understand the difference between java code
+ * but do not worry about it this early on in your
+ * learning of the programming concepts.
  * 
  */
 
