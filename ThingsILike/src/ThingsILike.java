@@ -16,14 +16,14 @@
  */
 
 public class ThingsILike {
-	
-	public static void main(String args[]) {
 
-		System.out.println("Chocolate, royalties, sleep");
+	public static void printThings() {
+	
+	System.out.println("Chocolate, royalties, sleep"); 
 	} 
 }
 
-
+	
 
 // !! MUST REMEMBER !!
 // 
