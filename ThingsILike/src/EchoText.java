@@ -18,13 +18,18 @@ import java.util.Scanner;
 
 public class EchoText {
 
+	/* areckx: Memory Leaks
+	 * Apparently without declaring readTextInput as static, it will
+	 * cause `readTextInput` to not close at the end of the function call
+	 */
+	private static Scanner readTextInput;
+
 	/**
 	 * <p>echoLine</p> After pressing Enter, an exact copy is displayed on a newline.
 	 */
 	public static void echoLine() {
-		Scanner readTextInput = new Scanner(System.in); 
+		readTextInput = new Scanner(System.in); 
 
 		System.out.println(readTextInput.nextLine());
-	}
-
+	} 
 }
