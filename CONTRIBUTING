@@ -6,6 +6,15 @@ Please use the following format for leaving comments for me to read later:
     /* UserName: !NEW! <-- Pointer to anything that is a core element
      *
      */
+      
+List of Core Elements:
+
+    !NEW!   <-- Something new that is important enough to point out
+    !PIN!   <-- Keep this comment in source
+    !TODO!  <-- Indicates something needs to be worked on, but isn't broken
+    !WARN!  <-- Indicates something might be broken, but not quite broken
+    !ERR!   <-- Something is broken
+    !CRIT!  <-- Something is broken, and potentially poses security/hardware threats
      
 This is to facilitate regex search and replace functionality for future revisions
 of my source code project.
