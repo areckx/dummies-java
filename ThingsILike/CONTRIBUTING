@@ -11,7 +11,8 @@ List of Core Elements:
 
     !NEW!   <-- Something new that is important enough to point out
     !PIN!   <-- Keep this comment in source
-    !TODO!  <-- Indicates something needs to be worked on, but isn't broken
+    !TODO!  <-- Unfinished
+    !FIXME! <-- Indicates something needs to be worked on, but isn't broken
     !WARN!  <-- Indicates something might be broken, but not quite broken
     !ERR!   <-- Something is broken
     !CRIT!  <-- Something is broken, and potentially poses security/hardware threats
