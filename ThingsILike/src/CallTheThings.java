@@ -11,5 +11,7 @@ public class CallTheThings {
 		ThingsILike.printSleep(); 
 		
 		EchoText.echoLine();
+		
+		EchoText.firstWord();
 	} 
 }

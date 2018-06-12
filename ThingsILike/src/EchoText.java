@@ -32,4 +32,14 @@ public class EchoText {
 
 		System.out.println(readTextInput.nextLine());
 	} 
+	
+	/**
+	 * <p>firstWord</p> After pressing Enter, an exact copy of the first word is displayed
+	 * on a newline.
+	 */
+	public static void firstWord() {
+		readTextInput = new Scanner(System.in);
+		
+		System.out.println(readTextInput.next());
+	}
 }
