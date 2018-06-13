@@ -13,5 +13,7 @@ public class CallTheThings {
 		EchoText.echoLine();
 		
 		EchoText.firstWord();
+		
+		EchoText.plainInt();
 	} 
 }

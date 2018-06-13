@@ -28,6 +28,7 @@ public class EchoText {
 	 * <p>echoLine</p> After pressing Enter, an exact copy is displayed on a newline.
 	 */
 	public static void echoLine() {
+		System.out.print("echoLine: ");
 		readTextInput = new Scanner(System.in); 
 
 		System.out.println(readTextInput.nextLine());
@@ -38,8 +39,34 @@ public class EchoText {
 	 * on a newline.
 	 */
 	public static void firstWord() {
+		System.out.print("firstWord: ");
 		readTextInput = new Scanner(System.in);
 		
 		System.out.println(readTextInput.next());
+	}
+	
+	public static void plainInt() { 
+		System.out.print("plainInt: ");
+
+		readTextInput = new Scanner(System.in); 
+
+		
+		while(true) {
+
+			if (readTextInput.hasNextInt()) {
+				System.out.println(readTextInput.nextInt()); 
+				
+				break;
+
+			} else { 
+			System.out.print("Please enter a number.\n");
+			System.out.print("plainInt: "); 
+
+			readTextInput = new Scanner(System.in); 
+			}
+		}
+
+
+		
 	}
 }
