@@ -59,7 +59,7 @@ public class EchoText {
 				break;
 
 			} else { 
-			System.out.print("Please enter a number.\n");
+			System.out.println("Please enter a number.");
 			System.out.print("plainInt: "); 
 
 			readTextInput = new Scanner(System.in); 
