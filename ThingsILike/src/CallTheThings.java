@@ -15,5 +15,7 @@ public class CallTheThings {
 		EchoText.firstWord();
 		
 		EchoText.plainInt();
+		
+		//EchoText.grepChar(); 
 	} 
 }

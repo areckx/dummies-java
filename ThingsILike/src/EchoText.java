@@ -23,7 +23,7 @@ public class EchoText {
 	 * cause `readTextInput` to not close at the end of the function call
 	 */
 	private static Scanner readTextInput;
-
+	private static Scanner grep;
 	/**
 	 * <p>echoLine</p> After pressing Enter, an exact copy is displayed on a newline.
 	 */
@@ -64,9 +64,34 @@ public class EchoText {
 
 			readTextInput = new Scanner(System.in); 
 			}
-		}
-
-
-		
+		} 
 	}
+
+	/* areckx: !TODO! Get the logic of this all sorted out
+	 *	
+	 * I'm mostly playing around with how to implement the various methods in Scanner
+	 * and adding some ideas in there. Basically, this method needs to ask for 
+	 * 		
+	 * 		1. A sentence to parse
+	 * 
+	 * 		2. A string to isolate within the above sentence	
+	 * 
+	 * There is also a strange behavior in the print() messages which causes the first
+	 * one to print a new line and go straight to printing the second one while the 
+	 * first Scanner call is still being performed.
+	 */
+
+	/*
+	public static void grepChar() { 
+	
+		System.out.print("grepChar(sentence): "); 
+		readTextInput = new Scanner(System.in); 
+	
+		System.out.print("\ngrepChar(char to grep): "); 
+		grep = new Scanner(System.in); 
+		
+		System.out.println(readTextInput.findInLine(grep.nextLine()));
+	
+	}
+	*/
 }
