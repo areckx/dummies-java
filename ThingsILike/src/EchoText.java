@@ -23,7 +23,7 @@ public class EchoText {
 	 * cause `readTextInput` to not close at the end of the function call
 	 */
 	private static Scanner readTextInput;
-	private static Scanner grep;
+	//private static Scanner grep;
 	/**
 	 * <p>echoLine</p> After pressing Enter, an exact copy is displayed on a newline.
 	 */
