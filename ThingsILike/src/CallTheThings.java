@@ -1,7 +1,7 @@
 /**
  * main class for ThingsILike program
  * 
- * Based on code by Barry Burd * 
+ * Based on code by Barry Burd 
  * @author Alex Loranger
  *
  */
