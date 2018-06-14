@@ -5,6 +5,21 @@
  * @author Alex Loranger
  *
  */
+
+/* areckx: !PIN! Problem Solving
+ * Original Document: https://www.reddit.com/r/javahelp/wiki/learn_to_help_yourself
+ * 
+ * 	1. Analyse the error message
+ * 
+ * 	2. Find the root cause
+ * 
+ * 	3. Find a possible solution (but look deeper as the first solution might not be ideal)
+ * 
+ * 	4. Dig deeper into the documentation
+ * 
+ * 	5. Put the puzzle together
+ */
+
 public class CallTheThings {
 	public static void main(String args[]) {
 
