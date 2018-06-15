@@ -1,11 +1,15 @@
+import java.util.Scanner; 
 
 public class SnitSoft {
+	private static Scanner salePrice;
 
 	public static void scamPrice() {
+		salePrice = new Scanner(System.in);
 		
 		double amount;
 		
-		amount = 5.95;
+		System.out.print("What's the price of the super amazing CD-ROM? ");
+		amount = salePrice.nextDouble();
 		amount += 25.00;
 		
 		System.out.print("We will bill $");
