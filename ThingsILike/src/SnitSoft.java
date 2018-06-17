@@ -1,5 +1,23 @@
 import java.util.Scanner; 
 
+/* areckx: !TODO! Read data from file
+ * 
+ * Right now I am working on a way to read the prices from a file. The ideal would be
+ * to use an excel spreadsheet or an exported xml document most likely from a spreadsheet
+ * so the fields could be worked with dynamically instead of expecting user input from the
+ * console for each cost.
+ * 
+ * For now, I want the parser to:
+ * 	
+ * while (file != EOL) {
+ * 	read(file) {
+ * 		parse(first, second) // each line has format of `variableName	cost`
+ * 		totalPrice += cost
+ * 	}
+ * }
+ * 
+ */
+
 public class SnitSoft {
 	private static Scanner cost;
 
