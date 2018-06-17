@@ -1,17 +1,19 @@
 import java.util.Scanner; 
 
 public class SnitSoft {
-	private static Scanner salePrice;
+	private static Scanner cost;
 
 	public static void scamPrice() {
-		salePrice = new Scanner(System.in); 
+		cost = new Scanner(System.in); 
 		
 		System.out.print("What's the price of the super amazing CD-ROM? ");
-		double amount = salePrice.nextDouble();
-		amount += 25.00;
+		double cdPrice = cost.nextDouble();
+
+		System.out.print("What's the shipping and handling? ");
+		double shippingAndHandling = cost.nextDouble();
 		
 		System.out.print("We will bill $");
-		System.out.print(amount);
+		System.out.print(cdPrice + shippingAndHandling);
 		System.out.println(" to your credit card."); 
 	} 
 }
