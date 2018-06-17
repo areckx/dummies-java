@@ -9,7 +9,7 @@ import java.util.Scanner;
  * 
  * For now, I want the parser to:
  * 	
- * while (file != EOL) {
+ * while (file != EOF) {
  * 	read(file) {
  * 		parse(first, second) // each line has format of `variableName	cost`
  * 		totalPrice += cost
