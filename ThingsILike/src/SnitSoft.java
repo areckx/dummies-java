@@ -1,4 +1,7 @@
 import java.util.Scanner; 
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 
 /* areckx: !TODO! Read data from file
  * 
@@ -20,8 +23,17 @@ import java.util.Scanner;
 
 public class SnitSoft {
 	private static Scanner cost;
+	
+	private static BufferedReader costTable;
 
 	public static void scamPrice() {
+		
+		try {
+			costTable = new BufferedReader(new FileReader("data/prices.table"));
+		} catch (FileNotFoundException e) { 
+			e.printStackTrace();
+			System.out.println("Error: File not found.");
+		}
 		cost = new Scanner(System.in); 
 		
 		System.out.print("What's the price of the super amazing CD-ROM? ");
