@@ -100,6 +100,9 @@ public class SnitSoft {
 	 * will address this issue. Right now I'm going to test a multiple entry on a line
 	 * 
 	 * As expected, it will create problems with the array.
+	 * 
+	 * The way the arrays are generated should also be changed to some form of List type
+	 * and grow them that way instead of allocating null values to table.length 
 	 */
 
 }
