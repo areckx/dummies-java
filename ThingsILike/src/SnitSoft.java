@@ -99,7 +99,14 @@ public class SnitSoft {
 	 * pair per line and only if it adheres to the parsing rules exactly. Later revisions
 	 * will address this issue. Right now I'm going to test a multiple entry on a line
 	 * 
-	 * As expected, it will create problems with the array.
+	 * As expected, it will create problems with the array. I won't push problem
+	 * code to the repo, but basically I tried:
+	 * 
+	 * 		oneThing::1.00 twoThing::1.00 threeThing::1.00
+	 * 
+	 * I also tried so see if adding a fourth entry would fix it in case it was an
+	 * issue with there being an odd number of entries, but it still failed to parse 
+	 * as intended.
 	 * 
 	 * The way the arrays are generated should also be changed to some form of List type
 	 * and grow them that way instead of allocating null values to table.length 
