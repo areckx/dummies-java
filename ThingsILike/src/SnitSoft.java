@@ -84,9 +84,24 @@ public class SnitSoft {
 		}
 	}
 	
-	/* areckx: !FIXME!
-	 * Need to parse the values from each array entry with String.split("::")
+	/* areckx: !TODO!
+	 * Now that I have separated the values parsed from the text file into two
+	 * arrays, the next step is to create some sort of checklist for the user
+	 * to pick and choose which fees to pay. The joke scam ones will remain permanently
+	 * chosen, of course.
+	 * 
+	 * I will move on with reading the book for awhile before I come back to this. It may
+	 * not seem like much, but this dynamically allocated set of arrays took a lot 
+	 * out of me. The good thing about it is that no matter how long the list gets, the
+	 * array will grow.
+	 * 
+	 * The bad thing about it is that it only works as intended if there is only one
+	 * pair per line and only if it adheres to the parsing rules exactly. Later revisions
+	 * will address this issue. Right now I'm going to test a multiple entry on a line
+	 * 
+	 * As expected, it will create problems with the array.
 	 */
+
 }
 
 /* areckx: Types
