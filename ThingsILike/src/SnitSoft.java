@@ -62,8 +62,8 @@ public class SnitSoft {
 		
 		System.out.println(Arrays.toString(table)); 
 
-		String[] totalName = table;
-		String[] totalPrice = table;
+		String[] totalName = new String[table.length];
+		String[] totalPrice = new String[table.length];
 
 		for (int i = 0; i < table.length; i++) {
 			System.out.println(table[i]); 
@@ -74,13 +74,13 @@ public class SnitSoft {
 			
 			System.out.println(Arrays.toString(nameAndPrice)); 
 			
+			System.out.println(nameAndPrice[0]); 
 			totalName[i] = nameAndPrice[0];
-			totalPrice[i] = nameAndPrice[1]; 
-			
-			System.out.println(Arrays.toString(nameAndPrice)); 
 			System.out.println(Arrays.toString(totalName));
+
+			System.out.println(nameAndPrice[1]);
+			totalPrice[i] = nameAndPrice[1]; 
 			System.out.println(Arrays.toString(totalPrice));
-			
 		}
 	}
 	
