@@ -57,9 +57,31 @@ public class SnitSoft {
 		return table.toArray(new String[table.size()]);
 	} 
 	
+	
 	public static void scamPricePrint(String[] table) throws IOException {
 		
 		System.out.println(Arrays.toString(table)); 
+
+		String[] totalName = table;
+		String[] totalPrice = table;
+
+		for (int i = 0; i < table.length; i++) {
+			System.out.println(table[i]); 
+
+			String grep = table[i];
+			
+			String[] nameAndPrice = grep.split("::");
+			
+			System.out.println(Arrays.toString(nameAndPrice)); 
+			
+			totalName[i] = nameAndPrice[0];
+			totalPrice[i] = nameAndPrice[1]; 
+			
+			System.out.println(Arrays.toString(nameAndPrice)); 
+			System.out.println(Arrays.toString(totalName));
+			System.out.println(Arrays.toString(totalPrice));
+			
+		}
 	}
 	
 	/* areckx: !FIXME!
