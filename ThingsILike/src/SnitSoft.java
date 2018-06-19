@@ -1,7 +1,9 @@
+import java.util.Arrays;
 import java.util.Scanner; 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.IOException;
 
 /* areckx: !TODO! Read data from file
  * 
@@ -24,7 +26,9 @@ import java.io.FileReader;
 public class SnitSoft {
 	private static Scanner cost;
 	
-	private static BufferedReader costTable;
+	public static BufferedReader costTable;
+	
+	public static String currentParse = null;
 
 	public static void scamPrice() {
 		
@@ -34,6 +38,48 @@ public class SnitSoft {
 			e.printStackTrace();
 			System.out.println("Error: File not found.");
 		}
+		
+		try {
+			
+				String[] itemName = costTable.readLine().split("::"); 
+				String[] itemCost = costTable.readLine().split("::");
+
+				System.out.println(Arrays.asList(itemName)); 
+				System.out.println(Arrays.asList(itemCost)); 
+
+			while ( (currentParse = costTable.readLine()) != null ) {
+				
+				int i = 0;
+
+				System.out.println(currentParse); 
+					
+				System.out.print("i = ");
+				System.out.println(i); 
+				
+				System.out.print("itemName[");
+				System.out.print(i);
+				System.out.print("] = ");
+				System.out.println(itemName[i]); 
+
+				itemCost[i] = itemName[i];
+
+				System.out.print("itemCost[");
+				System.out.print(i);
+				System.out.print("] = ");
+				System.out.println(itemCost[i]); 
+				
+				System.out.println(Arrays.asList(itemName)); 
+				System.out.println(Arrays.asList(itemCost)); 
+
+				i++; 
+			}
+			
+		} catch (IOException e) { 
+			e.printStackTrace();
+			System.out.println("Error: Unable to parse file.");
+		} 
+
+		/*
 		cost = new Scanner(System.in); 
 		
 		System.out.print("What's the price of the super amazing CD-ROM? ");
@@ -45,6 +91,7 @@ public class SnitSoft {
 		System.out.print("We will bill $");
 		System.out.print(cdPrice + shippingAndHandling);
 		System.out.println(" to your credit card."); 
+		*/
 	} 
 }
 

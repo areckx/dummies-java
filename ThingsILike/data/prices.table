@@ -1,2 +1,3 @@
-cdPrice     5.75
-shippingAndHandling     20.00
+cdPrice::5.75
+shippingAndHandling::20.00
+someOtherFee::1.25
