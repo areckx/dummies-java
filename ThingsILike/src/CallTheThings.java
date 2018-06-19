@@ -1,3 +1,5 @@
+import java.io.IOException;
+
 /**
  * main class for ThingsILike program
  * 
@@ -21,7 +23,7 @@
  */
 
 public class CallTheThings {
-	public static void main(String args[]) {
+	public static void main(String args[]) throws IOException {
 
 		//ThingsILike.printThings(); 
 		
@@ -51,6 +53,9 @@ public class CallTheThings {
 		 */
 		//EchoText.grepChar(); 
 
-		SnitSoft.scamPrice();
+		String filename = "data/prices.table";
+		SnitSoft.scamPricePrint(SnitSoft.scamPriceTable(filename));
+
+		
 	} 
 }
