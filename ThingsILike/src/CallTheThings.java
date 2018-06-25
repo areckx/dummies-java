@@ -55,13 +55,7 @@ public class CallTheThings {
 
 		//String filename = "data/prices.table";
 		//SnitSoft.scamPricePrint(SnitSoft.scamPriceTable(filename));
-<<<<<<< Upstream, based on origin/master
-=======
-		
-		KeepingKidsQuiet.divideTheThings();
 
->>>>>>> fce95c2 Init
-		
 		KeepingKidsQuiet.divideGumballs(); 
 
 	} 
