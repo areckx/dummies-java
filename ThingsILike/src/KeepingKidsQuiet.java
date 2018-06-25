@@ -10,6 +10,7 @@ public class KeepingKidsQuiet {
 		int kids;
 		int gumballsPerKid;
 		
+		// Separate by a blank space
 		System.out.print("How many gumballs? How many kids? ");
 		
 		gumballs = howMany.nextInt();
