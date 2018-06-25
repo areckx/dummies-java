@@ -1,14 +1,20 @@
+import java.util.Scanner;
+
 
 public class KeepingKidsQuiet {
 
-	public static void divideGumballs() {
+	public static void divideGumballs() { 
+		Scanner howMany = new Scanner(System.in);
 	
 		int gumballs;
 		int kids;
 		int gumballsPerKid;
 		
-		gumballs = 30;
-		kids = 4; 	
+		System.out.print("How many gumballs?"); 
+		gumballs = howMany.nextInt();
+		
+		System.out.print("\nHow many kids? ");
+		kids = howMany.nextInt();
 		
 		gumballsPerKid = (gumballs / kids);
 		
