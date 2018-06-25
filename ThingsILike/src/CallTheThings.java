@@ -53,9 +53,9 @@ public class CallTheThings {
 		 */
 		//EchoText.grepChar(); 
 
-		String filename = "data/prices.table";
-		SnitSoft.scamPricePrint(SnitSoft.scamPriceTable(filename));
-
+		//String filename = "data/prices.table";
+		//SnitSoft.scamPricePrint(SnitSoft.scamPriceTable(filename));
 		
+		KeepingKidsQuiet.divideGumballs(); 
 	} 
 }
