@@ -10,10 +10,9 @@ public class KeepingKidsQuiet {
 		int kids;
 		int gumballsPerKid;
 		
-		System.out.print("How many gumballs?"); 
-		gumballs = howMany.nextInt();
+		System.out.print("How many gumballs? How many kids? ");
 		
-		System.out.print("\nHow many kids? ");
+		gumballs = howMany.nextInt();
 		kids = howMany.nextInt();
 		
 		gumballsPerKid = (gumballs / kids);
