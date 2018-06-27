@@ -60,3 +60,21 @@ public class CallTheThings {
 
 	} 
 }
+
+
+/* Definitions of this file
+ *
+ *	Within this file contains all of the launching points of each and every program called during this
+ *   version of the instant. What does this mean?
+ *	
+ *		::strategy
+ * 
+ * A good strategy for coming up with what I will be working on next. Over the couse of this comment, I will be discussing
+ * my intentions for the future of this repository of programming code.
+ * 
+ * 
+ * This program function allows me to figure out the numbers needed to inject into variables throughout the potential
+ * running of this program.  I am not sure what features I, or others, will potentially create using this code, so who
+ * knows what tasks this program will be helping to accomplish over the next several weeks. 
+ * 
+ */
