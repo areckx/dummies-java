@@ -65,7 +65,7 @@ public class CallTheThings {
 /* Definitions of this file
  *
  *	Within this file contains all of the launching points of each and every program called during this
- *   version of the instant. What does this mean?
+ *  version of the instance. What does this mean?
  *	
  *		::strategy
  * 
