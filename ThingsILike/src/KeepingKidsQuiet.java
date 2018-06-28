@@ -122,12 +122,12 @@ public class KeepingKidsQuiet {
 		System.out.println(cents + " cents");
 	}
 
-		public static void addMoreGumballs() {
-			int gumballs = 27;
+	public static void addMoreGumballs() {
+		int gumballs = 27;
 
-			++gumballs;
-			System.out.println(gumballs);
-			System.out.println(++gumballs);
-			System.out.println(gumballs);
-		}
+		++gumballs;
+		System.out.println(gumballs);
+		System.out.println(++gumballs);
+		System.out.println(gumballs);
+	}
 }
