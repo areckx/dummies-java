@@ -58,8 +58,9 @@ public class CallTheThings {
 
 		//KeepingKidsQuiet.divideGumballs(); 
 		
-		KeepingKidsQuiet.makeChangeFromCents();
-		KeepingKidsQuiet.makeChangeFromDollars();
+		//KeepingKidsQuiet.makeChangeFromCents();
+		//KeepingKidsQuiet.makeChangeFromDollars();
+		KeepingKidsQuiet.addMoreGumballs();
 
 	} 
 }
