@@ -63,7 +63,7 @@ public class KeepingKidsQuiet {
 		System.out.println(cents + " cents"); 
 	}
 	
-		public static void makeChangeFromDollars() {
+	public static void makeChangeFromDollars() {
 		howMany = new Scanner(System.in);
 		int quarters, dimes, nickels, cents;
 		int whatsLeft, total;
@@ -84,12 +84,43 @@ public class KeepingKidsQuiet {
 		cents = whatsLeft;
 		
 		System.out.println();
-		System.out.println("From " + (total / 100 ) + " dollar you get");
+		System.out.println("From " + (total / 100 ) + " dollars you get");
 		System.out.println(quarters + " quarters");
 		System.out.println(dimes + " dimes");
 		System.out.println(nickels + " nickels");
 		System.out.println(cents + " cents"); 
-		} 
+	} 
+		
+	public static void makeChange() {
+		howMany = new Scanner(System.in);
+		int quarters, dimes, nickels, cents;
+		int whatsLeft, total;
+		double totalDisplay;
+		
+		System.out.print("How much money do you have? (Example: 1.25) ");
+		
+		total = (int) (howMany.nextDouble() * 100);
+		totalDisplay = ((double) total / 100);
+		
+		quarters = (total / 25);
+		whatsLeft = (total % 25);
+		
+		// These will never return anything other than 0 since 4 quarters will always go into 1 dollar
+		dimes = (whatsLeft / 10);
+		whatsLeft = (whatsLeft % 10);
+		
+		nickels = (whatsLeft / 5);
+		whatsLeft = (whatsLeft % 5);
+		
+		cents = whatsLeft;
+		
+		System.out.println();
+		System.out.println("From $" + totalDisplay + " you get");
+		System.out.println(quarters + " quarters");
+		System.out.println(dimes + " dimes");
+		System.out.println(nickels + " nickels");
+		System.out.println(cents + " cents"); 
+	} 
 		
 		public static void addMoreGumballs() {
 			int gumballs = 27;
