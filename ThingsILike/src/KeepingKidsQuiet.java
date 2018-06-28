@@ -36,7 +36,7 @@ public class KeepingKidsQuiet {
 	}
 	
 	
-	public static void makeChange() {
+	public static void makeChangeFromCents() {
 		howMany = new Scanner(System.in);
 		int quarters, dimes, nickels, cents;
 		int whatsLeft, total;
@@ -62,4 +62,31 @@ public class KeepingKidsQuiet {
 		System.out.println(nickels + " nickels");
 		System.out.println(cents + " cents"); 
 	}
+	
+		public static void makeChangeFromDollars() {
+		howMany = new Scanner(System.in);
+		int quarters, dimes, nickels, cents;
+		int whatsLeft, total;
+		
+		System.out.print("How many dollars do you have? ");
+		total = howMany.nextInt();
+		
+		quarters = (total / 25) * 100;
+		whatsLeft = (total % 25) * 100;
+		
+		dimes = (whatsLeft / 10) * 100;
+		whatsLeft = (whatsLeft % 10) * 100;
+		
+		nickels = (whatsLeft / 5) * 100;
+		whatsLeft = (whatsLeft % 5) * 100;
+		
+		cents = whatsLeft;
+		
+		System.out.println();
+		System.out.println("From " + total + " cents you get");
+		System.out.println(quarters + " quarters");
+		System.out.println(dimes + " dimes");
+		System.out.println(nickels + " nickels");
+		System.out.println(cents + " cents"); 
+		} 
 }
