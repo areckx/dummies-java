@@ -11,7 +11,7 @@ import java.io.IOException;
 /* areckx: !PIN! Problem Solving
  * Original Document: https://www.reddit.com/r/javahelp/wiki/learn_to_help_yourself
  * 
- * 	1. Analyse the error message
+ * 	1. Analyze the error message
  * 
  * 	2. Find the root cause
  * 
