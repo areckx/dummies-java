@@ -73,9 +73,8 @@ public class CallTheThings {
  *	
  *		::strategy
  * 
- * A good strategy for coming up with what I will be working on next. Over the couse of this comment, I will be discussing
+ * A good strategy for coming up with what I will be working on next. Over the course of this comment, I will be discussing
  * my intentions for the future of this repository of programming code.
- * 
  * 
  * This program function allows me to figure out the numbers needed to inject into variables throughout the potential
  * running of this program.  I am not sure what features I, or others, will potentially create using this code, so who
