@@ -69,21 +69,21 @@ public class KeepingKidsQuiet {
 		int whatsLeft, total;
 		
 		System.out.print("How many dollars do you have? ");
-		total = howMany.nextInt();
+		total = howMany.nextInt() * 100;
 		
-		quarters = (total / 25) * 100;
-		whatsLeft = (total % 25) * 100;
+		quarters = (total / 25);
+		whatsLeft = (total % 25);
 		
-		dimes = (whatsLeft / 10) * 100;
-		whatsLeft = (whatsLeft % 10) * 100;
+		dimes = (whatsLeft / 10);
+		whatsLeft = (whatsLeft % 10);
 		
-		nickels = (whatsLeft / 5) * 100;
-		whatsLeft = (whatsLeft % 5) * 100;
+		nickels = (whatsLeft / 5);
+		whatsLeft = (whatsLeft % 5);
 		
 		cents = whatsLeft;
 		
 		System.out.println();
-		System.out.println("From " + total + " cents you get");
+		System.out.println("From " + (total / 100 ) + " dollar you get");
 		System.out.println(quarters + " quarters");
 		System.out.println(dimes + " dimes");
 		System.out.println(nickels + " nickels");
