@@ -130,4 +130,13 @@ public class KeepingKidsQuiet {
 		System.out.println(++gumballs);
 		System.out.println(gumballs);
 	}
+
+	public static void gumballsAddMore() {
+		int gumballs = 27;
+
+		gumballs++;
+		System.out.println(gumballs);
+		System.out.println(gumballs++);
+		System.out.println(gumballs);
+	}
 }
