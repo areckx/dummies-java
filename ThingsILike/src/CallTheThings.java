@@ -62,7 +62,9 @@ public class CallTheThings {
 		//KeepingKidsQuiet.makeChangeFromDollars();
 		//KeepingKidsQuiet.addMoreGumballs();
 		//KeepingKidsQuiet.makeChange();
-		KeepingKidsQuiet.gumballsAddMore();
+		//KeepingKidsQuiet.gumballsAddMore();
+
+		LowerToUpper.lowerToUpper();
 	}
 }
 
