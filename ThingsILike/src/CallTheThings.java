@@ -64,7 +64,9 @@ public class CallTheThings {
 		//KeepingKidsQuiet.makeChange();
 		//KeepingKidsQuiet.gumballsAddMore();
 
-		LowerToUpper.lowerToUpper();
+		//LowerToUpper.lowerToUpper();
+
+		ReverseWord.reverse();
 	}
 }
 

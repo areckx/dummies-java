@@ -1,4 +1,3 @@
-
 public class LowerToUpper {
 
 	public static void lowerToUpper() {
