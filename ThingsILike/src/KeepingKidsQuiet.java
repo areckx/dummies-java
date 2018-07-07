@@ -139,4 +139,20 @@ public class KeepingKidsQuiet {
 		System.out.println(gumballs++);
 		System.out.println(gumballs);
 	}
+
+	public static void canIKeepKidsQuiet() {
+		int gumballs, kids, gumballsPerKid;
+		boolean eachKidGetsTen;
+
+		gumballs = 140;
+		kids = 15;
+		gumballsPerKid = (gumballs / kids);
+
+		System.out.print("True or false? ");
+		System.out.println("Each kid gets 10 gumballs.");
+
+		eachKidGetsTen = gumballsPerKid >= 10;
+
+		System.out.println(eachKidGetsTen);
+	}
 }
