@@ -25,19 +25,19 @@ import java.io.IOException;
 public class CallTheThings {
 	public static void main(String args[]) throws IOException {
 
-		//ThingsILike.printThings();
+//		ThingsILike.printThings();
 
-		//ThingsILike.printChocolate();
+//		ThingsILike.printChocolate();
 
-		//ThingsILike.printRoyalties();
+//		ThingsILike.printRoyalties();
 
-		//ThingsILike.printSleep();
+//		ThingsILike.printSleep();
 
-		//EchoText.echoLine();
+//		EchoText.echoLine();
 
-		//EchoText.firstWord();
+//		EchoText.firstWord();
 
-		//EchoText.plainInt();
+//		EchoText.plainInt();
 
 		/* areckx: unimplemented
 		 *
@@ -51,22 +51,22 @@ public class CallTheThings {
 		 * I'll come up with when the time comes.
 		 *
 		 */
-		//EchoText.grepChar();
+//		EchoText.grepChar();
 
-		//String filename = "data/prices.table";
-		//SnitSoft.scamPricePrint(SnitSoft.scamPriceTable(filename));
+//		String filename = "data/prices.table";
+//		SnitSoft.scamPricePrint(SnitSoft.scamPriceTable(filename));
 
-		//KeepingKidsQuiet.divideGumballs();
+//		KeepingKidsQuiet.divideGumballs();
 
-		//KeepingKidsQuiet.makeChangeFromCents();
-		//KeepingKidsQuiet.makeChangeFromDollars();
-		//KeepingKidsQuiet.addMoreGumballs();
-		//KeepingKidsQuiet.makeChange();
-		//KeepingKidsQuiet.gumballsAddMore();
+//		KeepingKidsQuiet.makeChangeFromCents();
+//		KeepingKidsQuiet.makeChangeFromDollars();
+//		KeepingKidsQuiet.addMoreGumballs();
+//		KeepingKidsQuiet.makeChange();
+//		KeepingKidsQuiet.gumballsAddMore();
 
-		//LowerToUpper.lowerToUpper();
+//		LowerToUpper.lowerToUpper();
 
-		//ReverseWord.reverse();
+//		ReverseWord.reverse();
 		KeepingKidsQuiet.canIKeepKidsQuiet();
 	}
 }
