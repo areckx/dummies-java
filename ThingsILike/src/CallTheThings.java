@@ -87,3 +87,8 @@ public class CallTheThings {
  * knows what tasks this program will be helping to accomplish over the next several weeks.
  *
  */
+
+/* Haven't really been working on java for some time now. My goal over the next few weeks
+ * is to finish that java for dummies book. I can do this.
+ */
+*/
